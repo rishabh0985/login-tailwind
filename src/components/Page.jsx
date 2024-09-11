@@ -10,7 +10,7 @@ const Page = () => {
     <div className="flex h-screen bg-slate-500">
       <div className="flex justify-center items-center w-full">
         <span
-          className="flex text-black items-center text-4xl shadow-lg p-5 bg-gray-700 rounded-lg"
+          className="flex text-black items-center text-4xl shadow-lg p-5 bg-gray-700 rounded-lg hover:bg-white hover:text-green-400"
           onChange={onChange}
         >
           Welcome {name} to this page!

@@ -106,7 +106,7 @@ function Sign() {
             className="border w-full text-base px-2 py-1 focus:ring-0 focus:border-gray-600 rounded-md h-10"
           />
           <Link to="./Login">
-            <button className="bg-slate-600 text-stone-100 mt-10 h-10 w-20 text-sm flex justify-center items-center ml-14">
+            <button className="bg-slate-600 text-stone-100 mt-10 h-10 w-28 text-sm flex justify-center items-center ml-14 rounded-lg hover:bg-green-300 hover:text-black">
               Login Here
             </button>
           </Link>

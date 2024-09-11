@@ -49,7 +49,7 @@ const Login = () => {
               minLength={8}
               maxLength={16}
               required
-              className="border w-full text-base px-2 py-1 focus:ring-0 focus:border-gray-600 rounded-md h-10"
+              className="border w-full text-base px-2 py-1 focus:ring-0 focus:border-gray-600 rounded-md h-10 "
             />
             <span
               onClick={toggleShowPassword}
@@ -64,7 +64,7 @@ const Login = () => {
           </div>
         </div>
         <Link to="/Page">
-          <button className="bg-slate-600 text-stone-100 p-2 mt-10 rounded-md w-40 flex items-center justify-center">
+          <button className="bg-slate-600 text-stone-100 p-2 mt-10 rounded-md w-40 flex items-center justify-center hover:bg-slate-200 hover:text-black">
             Log in
           </button>
         </Link>
@@ -72,7 +72,7 @@ const Login = () => {
       <div className="flex flex-row gap-1">
         <h1 className="text-white">Don't have an account:{" > "}</h1>
 
-        <Link to="/Sign" className="underline text-black">
+        <Link to="/Sign" className="underline text-black hover:text-blue-400 ">
           SignIn
         </Link>
       </div>
